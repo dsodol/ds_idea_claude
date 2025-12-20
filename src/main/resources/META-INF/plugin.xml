@@ -1,0 +1,15 @@
+<!-- Plugin Configuration File. See https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
+<idea-plugin>
+    <id>com.sodol.ds_idea_claude</id>
+    <name>Ds Idea Claude</name>
+    <vendor>sodol</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="Ds Idea Claude" 
+                    anchor="right" 
+                    factoryClass="com.sodol.ds_idea_claude.MyToolWindowFactory"
+                    icon="AllIcons.General.Information"/>
+    </extensions>
+</idea-plugin>
